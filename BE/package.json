@@ -18,7 +18,10 @@
     }
   },
   "lint-staged": {
-    "*.js": ["npm run lint:fix", "git add"]
+    "*.js": [
+      "npm run lint:fix",
+      "git add"
+    ]
   },
   "keywords": [],
   "author": "",
